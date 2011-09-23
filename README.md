@@ -7,8 +7,8 @@ How to install
 ----
 
 0. Install Studio
-1. Download [titanium.ruble.zip](https://github.com/aptana/titanium.ruble/zipball/master)
+1. Download [titanium_mobile.ruble.zip](https://github.com/appcelerator/titanium_mobile.ruble/zipball/master)
 2. Unzip to ~/Documents/Aptana Rubles
-3. Rename the folder to `titanium.ruble`
+3. Rename the folder to `titanium_mobile.ruble`
     * The name of the folder doesn't really matter, just so long as it has the `ruble` extension
 4. Enjoy!

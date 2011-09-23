@@ -160,6 +160,19 @@ children:
   runType: current_thread
   scope: scope.js
   workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: ATitanium Mobile Developer Center
+  input: [selection]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: show_as_html
+  path: commands/appcelerator_titanium_mobile_developer_center.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
 copyright: Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
 decreaseIndentMarkers: {}
