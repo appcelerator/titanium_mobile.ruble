@@ -1,6 +1,6 @@
 require 'ruble'
 
-command 'ATitanium Mobile Developer Center' do |cmd|
+command 'Titanium Mobile Developer Center' do |cmd|
   #cmd.key_binding = 'M4+H'
   cmd.output = :show_as_html
   cmd.input = :selection 

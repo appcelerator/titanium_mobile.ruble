@@ -1,61 +1,6 @@
 !!com.aptana.scripting.model.BundleElement
 author: Thomas Aylott/Appcelerator
 children:
-- !!com.aptana.scripting.model.MenuElement
-  children:
-  - children: &id001 []
-    commandName: Appcelerator Titanium Mobile Developer Center
-    customProperties: null
-    displayName: Appcelerator Titanium Mobile Developer Center
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Xcode Debug
-    customProperties: null
-    displayName: Xcode Debug
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.include()
-    customProperties: null
-    displayName: Ti.include()
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.API.debug
-    customProperties: null
-    displayName: Ti.API.debug
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.API.info
-    customProperties: null
-    displayName: Ti.API.info
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.API.log
-    customProperties: null
-    displayName: Ti.API.log
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.App.fireEvent
-    customProperties: null
-    displayName: Ti.App.fireEvent
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.App.addEventListener
-    customProperties: null
-    displayName: Ti.App.addEventListener
-    path: bundle.rb
-    scope: null
-  commandName: Titanium Mobile
-  customProperties: null
-  displayName: Titanium Mobile
-  path: bundle.rb
-  scope: null
 - !command
   async: false
   customProperties: null
@@ -163,7 +108,7 @@ children:
 - !!com.aptana.scripting.model.CommandElement
   async: false
   customProperties: null
-  displayName: ATitanium Mobile Developer Center
+  displayName: Titanium Mobile Developer Center
   input: [selection]
   inputPath: null
   keyBindingMap: null
@@ -173,6 +118,61 @@ children:
   runType: current_thread
   scope: source.js
   workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: &id001 []
+    commandName: Titanium Mobile Developer Center
+    customProperties: null
+    displayName: Titanium Mobile Developer Center
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Xcode Debug
+    customProperties: null
+    displayName: Xcode Debug
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.include()
+    customProperties: null
+    displayName: Ti.include()
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.debug
+    customProperties: null
+    displayName: Ti.API.debug
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.info
+    customProperties: null
+    displayName: Ti.API.info
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.log
+    customProperties: null
+    displayName: Ti.API.log
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.App.fireEvent
+    customProperties: null
+    displayName: Ti.App.fireEvent
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.App.addEventListener
+    customProperties: null
+    displayName: Ti.App.addEventListener
+    path: bundle.rb
+    scope: null
+  commandName: Titanium Mobile
+  customProperties: null
+  displayName: Titanium Mobile
+  path: bundle.rb
+  scope: null
 copyright: Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
 decreaseIndentMarkers: {}

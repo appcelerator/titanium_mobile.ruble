@@ -10,7 +10,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
   bundle.repository = "git@github.com:aptana/titanium.ruble.git"
 
   bundle.menu 'Titanium Mobile' do |main_menu|
-    main_menu.command 'Appcelerator Titanium Mobile Developer Center'
+    main_menu.command 'Titanium Mobile Developer Center'
     main_menu.command 'Xcode Debug' if Ruble.is_mac?
 
     main_menu.command 'Ti.include()'
