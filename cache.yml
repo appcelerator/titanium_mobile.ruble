@@ -15,97 +15,7 @@ children:
   runType: current_thread
   scope: source.js
   workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.SnippetElement
-  async: false
-  customProperties:
-    prefix_values: [inc]
-  displayName: Ti.include()
-  expansion: Ti.include($0);
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: insert_as_snippet
-  path: snippets/snippets.rb
-  runType: current_thread
-  scope: scope.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.SnippetElement
-  async: false
-  customProperties:
-    prefix_values: [d]
-  displayName: Ti.API.debug
-  expansion: Ti.API.debug(${0:${TM_SELECTED_TEXT}})
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: insert_as_snippet
-  path: snippets/snippets.rb
-  runType: current_thread
-  scope: scope.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.SnippetElement
-  async: false
-  customProperties:
-    prefix_values: [i]
-  displayName: Ti.API.info
-  expansion: Ti.API.info(${0:${TM_SELECTED_TEXT}})
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: insert_as_snippet
-  path: snippets/snippets.rb
-  runType: current_thread
-  scope: scope.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.SnippetElement
-  async: false
-  customProperties:
-    prefix_values: [l]
-  displayName: Ti.API.log
-  expansion: Ti.API.log('${1:info}',${0:${TM_SELECTED_TEXT}})
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: insert_as_snippet
-  path: snippets/snippets.rb
-  runType: current_thread
-  scope: scope.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.SnippetElement
-  async: false
-  customProperties:
-    prefix_values: [ae]
-  displayName: Ti.App.addEventListener
-  expansion: Ti.App.addEventListener('${1:event}', $0);
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: insert_as_snippet
-  path: snippets/snippets.rb
-  runType: current_thread
-  scope: scope.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.SnippetElement
-  async: false
-  customProperties:
-    prefix_values: [fe]
-  displayName: Ti.App.fireEvent
-  expansion: Ti.App.fireEvent('${1:event}'$0)
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: insert_as_snippet
-  path: snippets/snippets.rb
-  runType: current_thread
-  scope: scope.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
+- !command
   async: false
   customProperties: null
   displayName: Titanium Mobile Developer Center
@@ -173,6 +83,96 @@ children:
   displayName: Titanium Mobile
   path: bundle.rb
   scope: null
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [inc]
+  displayName: Ti.include()
+  expansion: Ti.include($0);
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [d]
+  displayName: Ti.API.debug
+  expansion: Ti.API.debug(${0:${TM_SELECTED_TEXT}})
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [i]
+  displayName: Ti.API.info
+  expansion: Ti.API.info(${0:${TM_SELECTED_TEXT}})
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [l]
+  displayName: Ti.API.log
+  expansion: Ti.API.log('${1:info}',${0:${TM_SELECTED_TEXT}})
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [ae]
+  displayName: Ti.App.addEventListener
+  expansion: Ti.App.addEventListener('${1:event}', $0);
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  customProperties:
+    prefix_values: [fe]
+  displayName: Ti.App.fireEvent
+  expansion: Ti.App.fireEvent('${1:event}'$0)
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets/snippets.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
 copyright: Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
 decreaseIndentMarkers: {}

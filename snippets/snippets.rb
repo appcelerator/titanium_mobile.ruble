@@ -1,4 +1,4 @@
-with_defaults :scope => 'scope.js' do
+with_defaults :scope => 'source.js' do
   snippet 'Ti.include()' do |s|
     s.trigger = 'inc'
     s.expansion = 'Ti.include($0);'
