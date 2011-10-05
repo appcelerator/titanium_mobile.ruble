@@ -1,33 +1,6 @@
 !!com.aptana.scripting.model.BundleElement
 author: Thomas Aylott/Appcelerator
 children:
-- !command
-  async: false
-  customProperties: null
-  displayName: Xcode Debug
-  input: [none]
-  inputPath: null
-  keyBindingMap:
-    !!com.aptana.scripting.model.Platform 'ALL': [M1+R]
-  outputPath: null
-  outputType: discard
-  path: commands/xcode_debug.rb
-  runType: current_thread
-  scope: source.js
-  workingDirectoryType: UNDEFINED
-- !command
-  async: false
-  customProperties: null
-  displayName: Titanium Mobile Developer Center
-  input: [selection]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: show_as_html
-  path: commands/appcelerator_titanium_mobile_developer_center.rb
-  runType: current_thread
-  scope: source.js
-  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.MenuElement
   children:
   - children: &id001 []
@@ -83,6 +56,33 @@ children:
   displayName: Titanium Mobile
   path: bundle.rb
   scope: null
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Titanium Mobile Developer Center
+  input: [selection]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: show_as_html
+  path: commands/appcelerator_titanium_mobile_developer_center.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.CommandElement
+  async: false
+  customProperties: null
+  displayName: Xcode Debug
+  input: [none]
+  inputPath: null
+  keyBindingMap:
+    !!com.aptana.scripting.model.Platform 'ALL': [M1+R]
+  outputPath: null
+  outputType: discard
+  path: commands/xcode_debug.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.SnippetElement
   async: false
   customProperties:
@@ -175,14 +175,14 @@ children:
   workingDirectoryType: UNDEFINED
 copyright: Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
-decreaseIndentMarkers: {}
+decreaseIndentMarkers: &id002 {}
 description: Support for Appcelerator Titanium Mobile
 displayName: Titanium Mobile
-fileTypeRegistry: {}
-fileTypes: []
-foldingStartMarkers: {}
-foldingStopMarkers: {}
-increaseIndentMarkers: {}
+fileTypeRegistry: *id002
+fileTypes: *id001
+foldingStartMarkers: *id002
+foldingStopMarkers: *id002
+increaseIndentMarkers: *id002
 license: null
 licenseUrl: null
 path: bundle.rb
