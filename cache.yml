@@ -1,6 +1,33 @@
 !!com.aptana.scripting.model.BundleElement
 author: Thomas Aylott/Appcelerator
 children:
+- !command
+  async: false
+  customProperties: null
+  displayName: Titanium Mobile Developer Center
+  input: [selection]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: show_as_html
+  path: commands/appcelerator_titanium_mobile_developer_center.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
+- !command
+  async: false
+  customProperties: null
+  displayName: Xcode Debug
+  input: [none]
+  inputPath: null
+  keyBindingMap:
+    !!com.aptana.scripting.model.Platform 'ALL': [M1+R]
+  outputPath: null
+  outputType: discard
+  path: commands/xcode_debug.rb
+  runType: current_thread
+  scope: source.js
+  workingDirectoryType: UNDEFINED
 - !!com.aptana.scripting.model.MenuElement
   children:
   - children: &id001 []
@@ -56,48 +83,19 @@ children:
   displayName: Titanium Mobile
   path: bundle.rb
   scope: null
-- !!com.aptana.scripting.model.CommandElement
-  async: false
-  customProperties: null
-  displayName: Titanium Mobile Developer Center
-  input: [selection]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: show_as_html
-  path: commands/appcelerator_titanium_mobile_developer_center.rb
-  runType: current_thread
-  scope: source.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.CommandElement
-  async: false
-  customProperties: null
-  displayName: Xcode Debug
-  input: [none]
-  inputPath: null
-  keyBindingMap:
-    !!com.aptana.scripting.model.Platform 'ALL': [M1+R]
-  outputPath: null
-  outputType: discard
-  path: commands/xcode_debug.rb
-  runType: current_thread
-  scope: source.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.SnippetElement
-  async: false
-  customProperties:
-    prefix_values: [inc]
-  displayName: Ti.include()
-  expansion: Ti.include($0);
-  input: [none]
-  inputPath: null
-  keyBindingMap: null
-  outputPath: null
-  outputType: insert_as_snippet
-  path: snippets/snippets.rb
-  runType: current_thread
-  scope: source.js
-  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: A single window application with a single view - a mostly blank canvas.,
+  displayName: Single Window Application, location: staging/SingleWindow.zip, path: bundle.rb,
+  scope: null, type: TITANIUM_MOBILE}
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 'A
+    master detail view, utilizing a native table view component and platform-specific
+    UI and navigation.  A starting point for a navigation-based application with hierarchical
+    data, or a stack of windows.', displayName: Master/Detail Application, location: staging/MasterDetail.zip,
+  path: bundle.rb, scope: null, type: TITANIUM_MOBILE}
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 'A
+    tabbed application, consisting of multiple stacks of windows associated with tabs
+    in a tab group.  A starting point for tab-based application with multiple top-level
+    windows.', displayName: Tabbed Application, location: staging/Tabbed.zip, path: bundle.rb,
+  scope: null, type: TITANIUM_MOBILE}
 - !!com.aptana.scripting.model.SnippetElement
   async: false
   customProperties:
@@ -116,9 +114,9 @@ children:
 - !!com.aptana.scripting.model.SnippetElement
   async: false
   customProperties:
-    prefix_values: [i]
+    prefix_values: [info]
   displayName: Ti.API.info
-  expansion: Ti.API.info(${0:${TM_SELECTED_TEXT}})
+  expansion: Ti.API.info('${0:log}')
   input: [none]
   inputPath: null
   keyBindingMap: null
@@ -175,14 +173,14 @@ children:
   workingDirectoryType: UNDEFINED
 copyright: Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
-decreaseIndentMarkers: &id002 {}
+decreaseIndentMarkers: {}
 description: Support for Appcelerator Titanium Mobile
 displayName: Titanium Mobile
-fileTypeRegistry: *id002
-fileTypes: *id001
-foldingStartMarkers: *id002
-foldingStopMarkers: *id002
-increaseIndentMarkers: *id002
+fileTypeRegistry: {}
+fileTypes: []
+foldingStartMarkers: {}
+foldingStopMarkers: {}
+increaseIndentMarkers: {}
 license: null
 licenseUrl: null
 path: bundle.rb

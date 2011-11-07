@@ -12,3 +12,8 @@ How to install
 3. Rename the folder to `titanium_mobile.ruble`
     * The name of the folder doesn't really matter, just so long as it has the `ruble` extension
 4. Enjoy!
+
+Building template projects
+----
+
+Run `rake` with no arguments to generate the .zip files for local project templates

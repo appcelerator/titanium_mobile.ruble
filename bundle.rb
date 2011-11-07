@@ -20,4 +20,25 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     main_menu.command 'Ti.App.fireEvent'
     main_menu.command 'Ti.App.addEventListener'
   end
+  
+  project_template "Single Window Application" do |t|
+    t.type = :titanium_mobile
+    t.location = "staging/SingleWindow.zip"
+    t.description = "A single window application with a single view - a mostly blank canvas."
+    puts t
+  end
+  
+  project_template "Master/Detail Application" do |t|
+    t.type = :titanium_mobile
+    t.location = "staging/MasterDetail.zip"
+    t.description = "A master detail view, utilizing a native table view component and platform-specific UI and navigation.  A starting point for a navigation-based application with hierarchical data, or a stack of windows."
+    puts t
+  end
+  
+  project_template "Tabbed Application" do |t|
+    t.type = :titanium_mobile
+    t.location = "staging/Tabbed.zip"
+    t.description = "A tabbed application, consisting of multiple stacks of windows associated with tabs in a tab group.  A starting point for tab-based application with multiple top-level windows."
+    puts t
+  end
 end
