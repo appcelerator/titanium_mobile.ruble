@@ -180,7 +180,7 @@ end
     s.expansion = 
 "
 // Create a Button to toggle the App Badge.
-var badgeToggleButton = Ti.UI.createButton({
+var appBadgeToggleButton = Ti.UI.createButton({
 \ttitle : 'Toggle App Badge',
 \twidth : 200,
 \theight : 40,
@@ -189,18 +189,18 @@ var badgeToggleButton = Ti.UI.createButton({
 var badgeVal = 0;
 
 // Listen for click events.
-badgeToggleButton.addEventListener('click', function() {
+appBadgeToggleButton.addEventListener('click', function() {
 \tif (!Ti.UI.iPhone.appBadge) {
 \t\tTi.UI.iPhone.appBadge = ++badgeVal;
 \t\tTi.API.info('The App badge has the value: ' + badgeVal);
 \t} else {
 \t\tTi.UI.iPhone.appBadge = null;
-\tTi.API.info('The App badge has been removed');
+\t\tTi.API.info('The App badge has been removed');
 \t}
 });
 
 // Add to the parent view.
-${1:parentView}.add(badgeToggleButton);
+${1:parentView}.add(appBadgeToggleButton);
 "
   end
   
@@ -632,6 +632,35 @@ if (Ti.UI.Clipboard.hasText()) {
 
 // Clear the Clipboard.
 Ti.UI.Clipboard.clearText();
+"
+  end
+
+  snippet 'tabBadge' do |s|
+    s.trigger = 'tabbadge'
+    s.expansion = 
+"
+// Create a Button to toggle the Tab Badge.
+var tabBadgeToggleButton = Ti.UI.createButton({
+\ttitle : 'Toggle Tab Badge',
+\twidth : 200,
+\theight : 40,
+\ttop : 10
+});
+var badgeVal = 0;
+
+// Listen for click events.
+tabBadgeToggleButton.addEventListener('click', function() {
+\tif (!${1:aTab}.badge) {
+\t\t${1:aTab}.badge = ++badgeVal;
+\t\tTi.API.info('The Tab badge has the value: ' + badgeVal);
+\t} else {
+\t\t${1:aTab}.badge = null;
+\t\tTi.API.info('The Tab badge has been removed');
+\t}
+});
+
+// Add to the parent view.
+${2:parentView}.add(tabBadgeToggleButton);
 "
   end
   

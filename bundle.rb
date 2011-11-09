@@ -44,6 +44,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     main_menu.command 'clipboard'
     main_menu.command 'md5'
     main_menu.command 'properties'
+    main_menu.command 'tabBadge'
     main_menu.command 'vibrate'
   end
 end
