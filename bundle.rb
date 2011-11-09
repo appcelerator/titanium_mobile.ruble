@@ -21,6 +21,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     main_menu.command 'Ti.App.addEventListener'
     
     main_menu.command 'createAnimation'
+    main_menu.command 'createAudioPlayer'
     main_menu.command 'createButton'
     main_menu.command 'createCamera'
     main_menu.command 'createContact'

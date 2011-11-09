@@ -663,5 +663,25 @@ tabBadgeToggleButton.addEventListener('click', function() {
 ${2:parentView}.add(tabBadgeToggleButton);
 "
   end
+
+  snippet 'createAudioPlayer' do |s|
+    s.trigger = 'audioplayer'
+    s.expansion = 
+"
+// Create an AudioPlayer.
+var ${1:anAudioPlayer} = Ti.Media.createAudioPlayer({
+\turl : 'http://example.com/somefile.mp3'
+});
+${1:anAudioPlayer}.start();
+
+// Listen for application pause and resume events.
+Ti.App.addEventListener('pause', function(e) {
+\t${1:anAudioPlayer}.setPaused(true);
+});
+Ti.App.addEventListener('resume', function(e) {
+\t${1:anAudioPlayer}.setPaused(false);
+});
+"
+  end
   
 end
