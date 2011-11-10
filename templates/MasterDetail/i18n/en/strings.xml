@@ -2,4 +2,6 @@
 <resources>
 	<string name="masterView">Master View</string>
 	<string name="detailView">Detail View</string>
+	<string name="select">Please Enter A Value</string>
+	<string name="youEntered">You Entered: %s</string>
 </resources>

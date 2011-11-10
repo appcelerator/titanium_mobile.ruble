@@ -1,17 +1,19 @@
 //Detail View Component Constructor
-function DetailView() {
-	//declare module dependencies
-	var Observable = require('lib/Observable');
-		
+exports.DetailView = function() {
 	//create object instance, parasitic subclass of Observable
-	var self = new Observable();
+	var self = Ti.UI.createView();
 	
-	self.view = Ti.UI.createView({
-		backgroundColor:'red'
+	var lbl = Ti.UI.createLabel({
+		text:'Please select an item',
+		height:'auto',
+		width:'auto',
+		color:'#000'
+	});
+	self.add(lbl);
+	
+	self.addEventListener('itemSelected', function(e) {
+		lbl.text = e.name+': $'+e.price;
 	});
 	
 	return self;
 };
-
-//add object to public module interface
-exports.DetailView = DetailView;

@@ -1,24 +1,17 @@
 //Application Window Component Constructor
-function ApplicationWindow() {
+exports.ApplicationWindow = function() {
 	//declare module dependencies
-	var Observable = require('lib/Observable')
-		FirstView = require('ui/FirstView');
+	var FirstView = require('ui/FirstView').FirstView;
 		
-	//create object instance, parasitic subclass of Observable
-	var self = new Observable();
-	
-	//public property on the object, a window UI object
-	self.window = Ti.UI.createWindow({
+	//create object instance
+	var self = Ti.UI.createWindow({
 		title:'New Application',
 		backgroundColor:'#ffffff'
 	});
 		
 	//construct UI
 	var firstView = new FirstView();
-	self.window.add(firstView.view);
+	self.add(firstView);
 	
 	return self;
 };
-
-//add object to public module interface
-exports.ApplicationWindow = ApplicationWindow;

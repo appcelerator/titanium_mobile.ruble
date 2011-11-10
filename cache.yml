@@ -14,88 +14,6 @@ children:
   runType: current_thread
   scope: source.js
   workingDirectoryType: UNDEFINED
-- !command
-  async: false
-  customProperties: null
-  displayName: Xcode Debug
-  input: [none]
-  inputPath: null
-  keyBindingMap:
-    !!com.aptana.scripting.model.Platform 'ALL': [M1+R]
-  outputPath: null
-  outputType: discard
-  path: commands/xcode_debug.rb
-  runType: current_thread
-  scope: source.js
-  workingDirectoryType: UNDEFINED
-- !!com.aptana.scripting.model.MenuElement
-  children:
-  - children: &id001 []
-    commandName: Titanium Mobile Developer Center
-    customProperties: null
-    displayName: Titanium Mobile Developer Center
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Xcode Debug
-    customProperties: null
-    displayName: Xcode Debug
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.include()
-    customProperties: null
-    displayName: Ti.include()
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.API.debug
-    customProperties: null
-    displayName: Ti.API.debug
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.API.info
-    customProperties: null
-    displayName: Ti.API.info
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.API.log
-    customProperties: null
-    displayName: Ti.API.log
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.App.fireEvent
-    customProperties: null
-    displayName: Ti.App.fireEvent
-    path: bundle.rb
-    scope: null
-  - children: *id001
-    commandName: Ti.App.addEventListener
-    customProperties: null
-    displayName: Ti.App.addEventListener
-    path: bundle.rb
-    scope: null
-  commandName: Titanium Mobile
-  customProperties: null
-  displayName: Titanium Mobile
-  path: bundle.rb
-  scope: null
-- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: A single window application with a single view - a mostly blank canvas.,
-  displayName: Single Window Application, location: staging/SingleWindow.zip, path: bundle.rb,
-  scope: null, type: TITANIUM_MOBILE}
-- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 'A
-    master detail view, utilizing a native table view component and platform-specific
-    UI and navigation.  A starting point for a navigation-based application with hierarchical
-    data, or a stack of windows.', displayName: Master/Detail Application, location: staging/MasterDetail.zip,
-  path: bundle.rb, scope: null, type: TITANIUM_MOBILE}
-- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 'A
-    tabbed application, consisting of multiple stacks of windows associated with tabs
-    in a tab group.  A starting point for tab-based application with multiple top-level
-    windows.', displayName: Tabbed Application, location: staging/Tabbed.zip, path: bundle.rb,
-  scope: null, type: TITANIUM_MOBILE}
 - !!com.aptana.scripting.model.SnippetElement
   async: false
   customProperties:
@@ -171,6 +89,68 @@ children:
   runType: current_thread
   scope: source.js
   workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.MenuElement
+  children:
+  - children: &id001 []
+    commandName: Titanium Mobile Developer Center
+    customProperties: null
+    displayName: Titanium Mobile Developer Center
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.include()
+    customProperties: null
+    displayName: Ti.include()
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.debug
+    customProperties: null
+    displayName: Ti.API.debug
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.info
+    customProperties: null
+    displayName: Ti.API.info
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.API.log
+    customProperties: null
+    displayName: Ti.API.log
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.App.fireEvent
+    customProperties: null
+    displayName: Ti.App.fireEvent
+    path: bundle.rb
+    scope: null
+  - children: *id001
+    commandName: Ti.App.addEventListener
+    customProperties: null
+    displayName: Ti.App.addEventListener
+    path: bundle.rb
+    scope: null
+  commandName: Titanium Mobile
+  customProperties: null
+  displayName: Titanium Mobile
+  path: bundle.rb
+  scope: null
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: A single window application with a single view - a mostly blank canvas.,
+  displayName: Single Window Application, location: staging/SingleWindow.zip, path: bundle.rb,
+  scope: null, type: TITANIUM_MOBILE}
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 'A
+    master detail view, utilizing a native table view component and platform-specific
+    UI and navigation.  A starting point for a navigation-based application with hierarchical
+    data, or a stack of windows.', displayName: Master/Detail Application, location: staging/MasterDetail.zip,
+  path: bundle.rb, scope: null, type: TITANIUM_MOBILE}
+- !!com.aptana.scripting.model.ProjectTemplateElement {customProperties: null, description: 'A
+    tabbed application, consisting of multiple stacks of windows associated with tabs
+    in a tab group.  A starting point for tab-based application with multiple top-level
+    windows.', displayName: Tabbed Application, location: staging/Tabbed.zip, path: bundle.rb,
+  scope: null, type: TITANIUM_MOBILE}
 copyright: Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license.
 customProperties: {contact_email_rot_13: 'null'}
 decreaseIndentMarkers: {}
