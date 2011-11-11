@@ -1,17 +1,12 @@
-with_defaults :scope => 'source.js' do
-  snippet 'Ti.include()' do |s|
-    s.trigger = 'inc'
-    s.expansion = 'Ti.include($0);'
-  end
-  
+with_defaults :scope => 'source.js' do  
   snippet 'Ti.API.debug' do |s|
     s.trigger = 'd'
     s.expansion = 'Ti.API.debug(${0:${TM_SELECTED_TEXT}})'
   end
   
   snippet 'Ti.API.info' do |s|
-    s.trigger = 'i'
-    s.expansion = 'Ti.API.info(${0:${TM_SELECTED_TEXT}})'
+    s.trigger = 'info'
+    s.expansion = 'Ti.API.info(\'${0:log}\')'
   end
   
   snippet 'Ti.API.log' do |s|
