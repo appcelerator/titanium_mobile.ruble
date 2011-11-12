@@ -7,7 +7,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
   bundle.contact_email_rot_13 = 'null'
   bundle.description =  'Support for Appcelerator Titanium Mobile'
   bundle.display_name = 'Titanium Mobile'
-  bundle.repository = "git@github.com:aptana/titanium.ruble.git"
+  bundle.repository = "git@github.com:appcelerator/titanium_mobile.ruble.git"
 
   bundle.menu 'Titanium Mobile' do |main_menu|
     main_menu.command 'Titanium Mobile Developer Center'
