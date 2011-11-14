@@ -11,7 +11,6 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
 
   bundle.menu 'Titanium Mobile' do |main_menu|
     main_menu.command 'Titanium Mobile Developer Center'
-    main_menu.command 'Ti.include()'
     main_menu.command 'Ti.API.debug'
     main_menu.command 'Ti.API.info'
     main_menu.command 'Ti.API.log'
