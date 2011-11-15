@@ -311,7 +311,7 @@ var flexSpace = Ti.UI.createButton({
 ${2:parentView}.setToolbar([flexSpace, ${1:aTabbedBar}, flexSpace]);
 
 // Listen for click events.
-tabbedBar.addEventListener('click', function(e) {
+${1:aTabbedBar}.addEventListener('click', function(e) {
 \talert('You clicked index = ' + e.index);
 });
 "
