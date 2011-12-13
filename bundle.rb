@@ -46,27 +46,27 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     main_menu.command 'vibrate'
   end
   
-  # project_template "Single Window Application" do |t|
-    # t.type = :titanium_mobile
-    # t.location = "staging/SingleWindow.zip"
-    # t.description = "A single window application with a single view - a mostly blank canvas. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+"
-    # t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_single_window.png"
-    # puts t
-  # end
+  project_template "Single Window Application" do |t|
+    t.type = :titanium_mobile
+    t.location = "staging/SingleWindow.zip"
+    t.description = "A single window application with a single view - a mostly blank canvas. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+"
+    t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_single_window.png"
+    puts t
+  end
 
-  # project_template "Master/Detail Application" do |t|
-    # t.type = :titanium_mobile
-    # t.location = "staging/MasterDetail.zip"
-    # t.description = "A master detail view, utilizing a native table view component and platform-specific UI and navigation. A starting point for a navigation-based application with hierarchical data, or a stack of windows. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+."
-    # t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_detail.png"
-    # puts t
-  # end
+  project_template "Master/Detail Application" do |t|
+    t.type = :titanium_mobile
+    t.location = "staging/MasterDetail.zip"
+    t.description = "A master detail view, utilizing a native table view component and platform-specific UI and navigation. A starting point for a navigation-based application with hierarchical data, or a stack of windows. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+."
+    t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_detail.png"
+    puts t
+  end
 
-  # project_template "Tabbed Application" do |t|
-    # t.type = :titanium_mobile
-    # t.location = "staging/Tabbed.zip"
-    # t.description = "A tabbed application, consisting of multiple stacks of windows associated with tabs in a tab group.  A starting point for tab-based application with multiple top-level windows. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+."
-    # t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_tabbed.png"
-    # puts t
-  # end
+  project_template "Tabbed Application" do |t|
+    t.type = :titanium_mobile
+    t.location = "staging/Tabbed.zip"
+    t.description = "A tabbed application, consisting of multiple stacks of windows associated with tabs in a tab group.  A starting point for tab-based application with multiple top-level windows. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+."
+    t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_tabbed.png"
+    puts t
+  end
 end
