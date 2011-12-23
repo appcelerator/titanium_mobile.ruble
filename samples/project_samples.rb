@@ -8,7 +8,7 @@ require 'ruble'
   # s.natures = ["com.appcelerator.titanium.mobile.nature", "com.aptana.projects.webnature"]
   # s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_geo.png"
 # end
-# 
+
 # project_sample "RSS Reader" do |s|
   # s.id = "com.appcelerator.titanium.mobile.samples.rss"
   # s.category = "com.appcelerator.titanium.mobile.samples.category"
@@ -17,7 +17,7 @@ require 'ruble'
   # s.natures = ["com.appcelerator.titanium.mobile.nature", "com.aptana.projects.webnature"]
   # s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_rss.png"
 # end
-# 
+ 
 # project_sample "Todo List" do |s|
   # s.id = "com.appcelerator.titanium.mobile.samples.todo"
   # s.category = "com.appcelerator.titanium.mobile.samples.category"
