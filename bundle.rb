@@ -2,8 +2,8 @@ require 'ruble'
 require 'ruble/platform'
 
 bundle 'Appcelerator Titanium Mobile' do |bundle|
-  bundle.author = 'Thomas Aylott/Appcelerator'
-  bundle.copyright = "Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license."
+  bundle.author = 'Thomas Aylott and Appcelerator'
+  bundle.copyright = "Copyright 2011 Thomas Aylott and Appcelerator. Distributed under the MIT license."
   bundle.contact_email_rot_13 = 'null'
   bundle.description =  'Support for Appcelerator Titanium Mobile'
   bundle.display_name = 'Titanium Mobile'
