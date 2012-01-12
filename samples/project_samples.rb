@@ -36,12 +36,14 @@ project_sample "Kitchen Sink" do |s|
   s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png"
 end
 
-project_sample "Kitchen Sink iPad" do |s|
-  s.id = "com.appcelerator.titanium.mobile.samples.kitchensink.ipad"
-  s.category = "com.appcelerator.titanium.mobile.samples.category"
-  s.location = "git://github.com/appcelerator/KitchenSinkiPad.git"
-  s.description = "A sample Titanium Mobile project that demonstrates a variety of APIs available in Titanium Mobile (For iPad)"
-  s.natures = ["com.appcelerator.titanium.mobile.nature", "com.aptana.projects.webnature"]
-  s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png"
+if Ruble.is_mac?
+  project_sample "Kitchen Sink iPad" do |s|
+    s.id = "com.appcelerator.titanium.mobile.samples.kitchensink.ipad"
+    s.category = "com.appcelerator.titanium.mobile.samples.category"
+    s.location = "git://github.com/appcelerator/KitchenSinkiPad.git"
+    s.description = "A sample Titanium Mobile project that demonstrates a variety of APIs available in Titanium Mobile (For iPad)"
+    s.natures = ["com.appcelerator.titanium.mobile.nature", "com.aptana.projects.webnature"]
+    s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png"
+  end
 end
 
