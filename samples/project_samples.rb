@@ -47,3 +47,12 @@ if Ruble.is_mac?
   end
 end
 
+project_sample "Kitchen Sink Nook" do |s|
+  s.id = "com.appcelerator.titanium.mobile.samples.kitchensink.nook"
+  s.category = "com.appcelerator.titanium.mobile.samples.category"
+  s.location = "git://github.com/appcelerator/KitchenSinkNook.git"
+  s.description = "A sample Titanium Mobile project that demonstrates a variety of APIs available in Titanium Mobile (For the Barnes & Noble Nook). Requires Titanium Mobile SDK 1.8+"
+  s.natures = ["com.appcelerator.titanium.mobile.nature", "com.aptana.projects.webnature"]
+  s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png"
+end
+
