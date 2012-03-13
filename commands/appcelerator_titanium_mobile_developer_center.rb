@@ -9,9 +9,9 @@ command 'Titanium Mobile Developer Center' do |cmd|
   cmd.invoke do |context|
     word = $stdin.read  
     if word.nil? || word == ""
-      url = "<meta http-equiv='Refresh' content='0;URL=http://developer.appcelerator.com/apidoc/mobile/latest'>"    
+      url = "<meta http-equiv='Refresh' content='0;URL=http://studio.appcelerator.com/redirect.php?location=docs_mobile_search'>"    
     else
-      url = "<meta http-equiv='Refresh' content='0;URL=http://developer.appcelerator.com/apidoc/search/mobile/latest?q=#{word}'>"
+      url = "<meta http-equiv='Refresh' content='0;URL=http://studio.appcelerator.com/redirect.php?location=docs_desktop_search&q=#{word}'>"
     end
   end
 end
