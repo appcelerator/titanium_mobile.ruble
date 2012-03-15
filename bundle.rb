@@ -3,7 +3,7 @@ require 'ruble'
 bundle 'Appcelerator Titanium Mobile' do |bundle|
   bundle.author = 'Thomas Aylott/Appcelerator'
   bundle.copyright = "Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license."
-  bundle.description =  'Support for Appcelerator Titanium Mobile'
+  bundle.description = t(:bundle_description)
   bundle.display_name = t(:bundle_name)
   bundle.repository = "git@github.com:appcelerator/titanium_mobile.ruble.git"
 
@@ -47,21 +47,21 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
   project_template t(:single_window_application) do |t|
     t.type = :titanium_mobile
     t.location = "staging/SingleWindow.zip"
-    t.description = "A single window application with a single view - a mostly blank canvas. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+"
+    t.description = t(:single_window_application_desc)
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_single_window.png"
   end
 
   project_template t(:master_detail_application) do |t|
     t.type = :titanium_mobile
     t.location = "staging/MasterDetail.zip"
-    t.description = "A master detail view, utilizing a native table view component and platform-specific UI and navigation. A starting point for a navigation-based application with hierarchical data, or a stack of windows. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+."
+    t.description = t(:master_detail_application_desc)
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_detail.png"
   end
 
   project_template t(:tabbed_application) do |t|
     t.type = :titanium_mobile
     t.location = "staging/Tabbed.zip"
-    t.description = "A tabbed application, consisting of multiple stacks of windows associated with tabs in a tab group.  A starting point for tab-based application with multiple top-level windows. Requires Titanium Mobile SDK 1.7.5+ or 1.8.0+."
+    t.description = t(:tabbed_application_desc)
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_tabbed.png"
   end
 end
