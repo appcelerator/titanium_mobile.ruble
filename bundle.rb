@@ -5,7 +5,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
   bundle.copyright = "Copyright 2011 Thomas Aylott/Appcelerator. Distributed under the MIT license."
   bundle.description = t(:bundle_description)
   bundle.display_name = t(:bundle_name)
-  bundle.repository = "git@github.com:appcelerator/titanium_mobile.ruble.git"
+  bundle.repository = "git://github.com/appcelerator/titanium_mobile.ruble.git"
 
   bundle.menu t(:bundle_name) do |main_menu|
     main_menu.command t(:developer_center)
