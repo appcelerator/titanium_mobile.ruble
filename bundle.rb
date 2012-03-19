@@ -64,4 +64,12 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     t.description = t(:tabbed_application_desc)
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_tabbed.png"
   end
+
+  project_template t(:html_application) do |t|
+    t.type = :titanium_mobile
+    t.location = "staging/Template.HTML.zip"
+    t.description = t(:html_application_desc)
+    t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_html.png" 
+  end
+  
 end
