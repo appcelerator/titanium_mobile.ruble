@@ -36,12 +36,22 @@ project_sample t(:kitchen_sink) do |s|
   s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png"
 end
 
-project_sample t(:kitchen_sink_ipad) do |s|
-  s.id = "com.appcelerator.titanium.mobile.samples.kitchensink.ipad"
+project_sample t(:kitchen_sink_nook) do |s|
+  s.id = "com.appcelerator.titanium.mobile.samples.kitchensink"
   s.category = "com.appcelerator.titanium.mobile.samples.category"
-  s.location = "git://github.com/appcelerator/KitchenSinkiPad.git"
-  s.description = t(:kitchen_sink_ipad_description)
+  s.location = "git://github.com/appcelerator/KitchenSinkNook.git"
+  s.description = t(:kitchen_sink_nook_description)
   s.natures = ["com.appcelerator.titanium.mobile.nature", "com.aptana.projects.webnature"]
   s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png"
 end
 
+if Ruble.is_mac?
+  project_sample t(:kitchen_sink_ipad) do |s|
+    s.id = "com.appcelerator.titanium.mobile.samples.kitchensink.ipad"
+    s.category = "com.appcelerator.titanium.mobile.samples.category"
+    s.location = "git://github.com/appcelerator/KitchenSinkiPad.git"
+    s.description = t(:kitchen_sink_ipad_description)
+    s.natures = ["com.appcelerator.titanium.mobile.nature", "com.aptana.projects.webnature"]
+    s.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_kitchen_sink.png"
+  end
+end

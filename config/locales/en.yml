@@ -20,4 +20,6 @@ en:
   kitchen_sink_description: "A sample Titanium Mobile project that demonstrates a variety of APIs available in Titanium Mobile"
   kitchen_sink_ipad: "Kitchen Sink iPad"
   kitchen_sink_ipad_description: "A sample Titanium Mobile project that demonstrates a variety of APIs available in Titanium Mobile (For iPad)"
+  kitchen_sink_nook: "Kitchen Sink Nook"
+  kitchen_sink_nook_description: "A sample Titanium Mobile project that demonstrates a variety of APIs available in Titanium Mobile (For Nook)"
   
