@@ -37,7 +37,7 @@ project_sample t(:kitchen_sink) do |s|
 end
 
 project_sample t(:kitchen_sink_nook) do |s|
-  s.id = "com.appcelerator.titanium.mobile.samples.kitchensink"
+  s.id = "com.appcelerator.titanium.mobile.samples.kitchensink.nook"
   s.category = "com.appcelerator.titanium.mobile.samples.category"
   s.location = "git://github.com/appcelerator/KitchenSinkNook.git"
   s.description = t(:kitchen_sink_nook_description)
