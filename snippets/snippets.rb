@@ -1,4 +1,4 @@
-with_defaults :scope => 'source.js' do  
+with_defaults :scope => 'meta.project.com.appcelerator.titanium.mobile source.js' do  
   snippet 'Ti.API.debug' do |s|
     s.trigger = 'd'
     s.expansion = 'Ti.API.debug(${0:${TM_SELECTED_TEXT}})'
