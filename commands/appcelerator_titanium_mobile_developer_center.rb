@@ -11,7 +11,7 @@ command t(:developer_center) do |cmd|
     if word.nil? || word == ""
       url = "<meta http-equiv='Refresh' content='0;URL=http://studio.appcelerator.com/redirect.php?location=docs_mobile_search'>"    
     else
-      url = "<meta http-equiv='Refresh' content='0;URL=http://studio.appcelerator.com/redirect.php?location=docs_desktop_search&q=#{word}'>"
+      url = "<meta http-equiv='Refresh' content='0;URL=http://studio.appcelerator.com/redirect.php?location=docs_mobile_search&q=#{word}'>"
     end
   end
 end
