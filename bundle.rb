@@ -48,7 +48,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     t.type = :titanium_mobile
     t.location = "staging/SingleWindow.zip"
     t.description = t(:single_window_application_desc)
-    t.tags = ['Titanium Classic']
+    t.tags = ['Classic']
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_single_window.png"
   end
 
@@ -56,7 +56,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     t.type = :titanium_mobile
     t.location = "staging/MasterDetail.zip"
     t.description = t(:master_detail_application_desc)
-    t.tags = ['Titanium Classic']
+    t.tags = ['Classic']
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_detail.png"
   end
 
@@ -64,7 +64,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     t.type = :titanium_mobile
     t.location = "staging/Tabbed.zip"
     t.description = t(:tabbed_application_desc)
-    t.tags = ['Titanium Classic']
+    t.tags = ['Classic']
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_tabbed.png"
   end
 
@@ -72,7 +72,7 @@ bundle 'Appcelerator Titanium Mobile' do |bundle|
     t.type = :titanium_mobile
     t.location = "staging/HTML.zip"
     t.description = t(:html_application_desc)
-    t.tags = ['Titanium Classic']
+    t.tags = ['Classic']
     t.icon = "http://preview.appcelerator.com/dashboard/img/icons/icon_html.png" 
   end
   
