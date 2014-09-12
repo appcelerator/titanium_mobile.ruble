@@ -1,7 +1,7 @@
 with_defaults :scope => 'meta.project.com.appcelerator.titanium.mobile source.js' do  
   snippet 'Ti.API.debug' do |s|
     s.trigger = 'd'
-    s.expansion = 'Ti.API.debug(${0:${TM_SELECTED_TEXT}})'
+    s.expansion = 'Ti.API.debug(${0:$TM_SELECTED_TEXT})'
   end
   
   snippet 'Ti.API.info' do |s|
@@ -11,7 +11,7 @@ with_defaults :scope => 'meta.project.com.appcelerator.titanium.mobile source.js
   
   snippet 'Ti.API.log' do |s|
     s.trigger = 'l'
-    s.expansion = 'Ti.API.log(\'${1:info}\',${0:${TM_SELECTED_TEXT}})'
+    s.expansion = 'Ti.API.log(\'${1:info}\',${0:$TM_SELECTED_TEXT})'
   end
   
   snippet 'Ti.App.addEventListener' do |s|
